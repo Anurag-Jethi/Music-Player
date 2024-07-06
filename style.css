@@ -212,6 +212,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding : 0.5rem;
 }
 
 .album {
@@ -268,4 +269,40 @@ a {
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.album-section {
+    display: flex;
+    height: 3.8rem;
+}
+
+.album-picture {
+    height: 3.5rem;
+}
+
+.album-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.album-title a {
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.album-title a:hover {
+    opacity: 1;
+}
+
+.album-controls{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.album-controls img{
+    height: 1.5rem;
+    margin-right: 0.5rem;
 }
