@@ -259,7 +259,7 @@ a {
 .progress-bar::-webkit-slider-runnable-track {
     background-color: #ddd;
     border-radius: 100px;
-    height: 0.2rem;
+    height: 0.3rem;
 }
 
 .progress-bar::-webkit-slider-thumb {
@@ -305,4 +305,41 @@ a {
 .album-controls img{
     height: 1.5rem;
     margin-right: 0.5rem;
+}
+.control-options {
+    display: flex;
+    height: 3.8rem;
+}
+
+.controls-icon {
+    height: 2.5rem;
+    margin-right: 0.1rem;
+    opacity: 0.7;
+}
+
+.controls-icon:hover {
+    opacity: 1;
+}
+
+.sound-bar {
+    appearance: none;
+    width: 5.8rem;
+    background-color: transparent;
+    cursor: pointer;
+    padding-bottom: 1.1rem;
+}
+
+.sound-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.3rem;
+}
+
+.sound-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
 }
