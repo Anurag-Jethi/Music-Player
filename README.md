@@ -12,3 +12,10 @@ It includes the sidebar navigation, the main content and a music player at botto
         cd Music-Player-main    
 3. Open index.html in your web browser
 4. You can modify the HTML and CSS files to customize the design further.
+
+### Screenshots:-
+![1](/assets/1.png)
+
+![2](/assets/2.png)
+
+![3](/assets/3.png)
